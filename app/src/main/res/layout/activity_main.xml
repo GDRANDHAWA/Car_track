@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#49aee1">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cursor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/imagev"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JusTrack"
+        android:textStyle="bold"
+        android:textColor="#ece9e9"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imagev"
+        android:layout_marginTop="15dp"
+        android:id="@+id/texts"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_rectangle"
+        android:hint="username"
+        android:gravity="center"
+        android:layout_below="@id/texts"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/eddit"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_rectangle"
+        android:hint="password"
+
+        android:gravity="center"
+        android:layout_below="@id/eddit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit2"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/edit2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded"
+        android:id="@+id/loginbtn"/>
+
+</RelativeLayout>

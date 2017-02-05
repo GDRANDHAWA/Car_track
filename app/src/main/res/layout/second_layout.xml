@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c17272">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="track driver 2"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+
+        android:id="@+id/btn2">
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRACK DRIVER 1"
+        android:textStyle="bold"
+        android:layout_above="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttn1"/>
+
+
+</RelativeLayout>
